@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    overflow-x: hidden
+}
+.logo-div span{
+    font-size: 25px
+}
+span.thick{
+    font-weight: bolder
+}
+.nav li{
+    display: inline;
+    padding: 0px 30px;
+}
+.nav a{
+    font-size: 15px;
+    font-weight: bolder;
+    color: black
+}
+.banner{
+    height: 73vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,.5)),url(../../images/gadget2.jpeg);
+    background-size: cover;
+    background-position: center
+}
+
+.banner-text{
+    padding-top: 25vh;
+}
+.bg-mycolor{
+    background: #E55036;
+    border-color: #E55036;
+    color: #ffffff;
+    border-radius: 0px;
+    padding: 10px 35px;
+}
+.promo-cards{
+    margin-top: -50px;
+}
+.inside-col{
+    width: 95%;
+    margin: 0px auto;
+}
+.promo-card{
+    height: 150px;
+}
+.container h6 {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+.container h6 span {
+    z-index: 1;
+  }
+  
+.container h6:before {
+    background: #ddd;
+    content: "";
+    display: block;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+  }
+.showcase .on-sale{
+    position: absolute;
+    font-size: 13px;
+    padding: 6px 25px;
+    font-weight: bold;
+}
+.amount{
+    font-size: 18px;
+    color: #E55036
+}
+.overlay{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background: rgba(228, 80, 57, 0.4);
+    padding-top: 25vh;
+    opacity: 0;
+    transition: all ease 0.5s;
+    /* opacity: 0.4; */
+}
+.showcase .card:hover .overlay{
+    opacity: 1;
+}
+.overlay a:hover{
+    color: #ffffff
+}
+.page-footer{
+    background: rgba(228, 80, 57, 0.9);
+}
+.page-footer li{
+    display: block;
+}
+.page-footer a{
+    color: white
+}
+.img-div{
+    width: 100%;
+}
